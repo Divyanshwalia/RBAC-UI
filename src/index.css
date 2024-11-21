@@ -1,13 +1,39 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* index.css */
+html, body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  height: 100%; /* Ensure full height */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-image: url('./images/hero-bg.jpg');
+  background-size: cover; /* Image should cover the entire viewport */
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: white; /* Text will be visible on background */
+}
+
+.users-container {
+  position: relative;
+  z-index: 1; /* Ensure content is on top of background */
+  background-color: transparent; /* No background, so image is visible */
+  padding: 20px;
+}
+
+/* Optional: Add overlay for better text visibility */
+.users-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent dark overlay */
+  z-index: 0; /* Overlay stays behind the content */
 }
