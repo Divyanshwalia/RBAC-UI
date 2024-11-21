@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Divyanshwalia/RBAC-UI/static/css/main.d7bb3e91.css",
+    "main.js": "/Divyanshwalia/RBAC-UI/static/js/main.376cf4e1.js",
+    "static/js/453.54e48043.chunk.js": "/Divyanshwalia/RBAC-UI/static/js/453.54e48043.chunk.js",
+    "static/media/hero-bg.jpg": "/Divyanshwalia/RBAC-UI/static/media/hero-bg.2992f057516b70b44bad.jpg",
+    "index.html": "/Divyanshwalia/RBAC-UI/index.html",
+    "main.d7bb3e91.css.map": "/Divyanshwalia/RBAC-UI/static/css/main.d7bb3e91.css.map",
+    "main.376cf4e1.js.map": "/Divyanshwalia/RBAC-UI/static/js/main.376cf4e1.js.map",
+    "453.54e48043.chunk.js.map": "/Divyanshwalia/RBAC-UI/static/js/453.54e48043.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7bb3e91.css",
+    "static/js/main.376cf4e1.js"
+  ]
+}
